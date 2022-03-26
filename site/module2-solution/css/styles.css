@@ -2,19 +2,22 @@
 * {
   font-family: Courier New , Helvetica;
   box-sizing: border-box;
+ 
 }
 
 body{
-  background-color: dimgray;
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
+  background-color: lightgray;
 
 }
 
 h1 {
   margin-bottom: 25px;
   text-align : center;
+  font-size: 175%;
+
 }
 
 h3 {
@@ -22,9 +25,10 @@ h3 {
   top:5px;
   right: 5px;
   margin: 10px;
-  border: 3px solid black;
+  border: 1px solid black;
   padding: 4px 30px 4px 30px;
   background-color: palevioletred;
+  font-size: 125%;
 
 }
 
@@ -33,9 +37,9 @@ section {
 }
 
 p {
-  background-color: lightgray;
+  background-color: dimgray;
   margin: 10px;
-  border: 3px solid black;
+  border: 1px solid black;
   padding: 45px 20px 30px 30px;
   color: black;
 }
@@ -84,7 +88,6 @@ p {
 @media (max-width: 767px)  {
   .col-sm-12 {
     float: left;
-
   }
   
   .col-sm-12 {
