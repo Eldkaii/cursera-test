@@ -1,0 +1,93 @@
+/********** Base styles **********/
+* {
+  font-family: Helvetica;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: dimgray;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+h1 {
+  margin-bottom: 25px;
+  text-align : center;
+}
+
+h3 {
+  position:  absolute;
+  top:5px;
+  right: 5px;
+  margin: 10px;
+  border: 3px solid black;
+  padding: 4px;
+  background-color: palevioletred;
+
+}
+
+section {
+  position: relative;
+}
+
+p {
+  background-color: lightgray;
+  margin: 10px;
+  border: 3px solid black;
+  padding: 40px 20px 30px 30px;
+  color: black;
+}
+
+.color1{
+  background-color: lightskyblue;
+}
+
+.color2{
+  background-color: lightcoral;
+
+}
+
+.color3{
+ background-color: lightgreen;
+}
+
+/********** desktop **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+
+}
+
+/**********tablet **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6, .col-md-12 {
+    float: left;
+  }
+  
+  .col-md-6 {
+    width: 50%;
+  }
+  
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+
+  /********** Mobile **********/
+@media (max-width: 767px)  {
+  .col-sm-12 {
+    float: left;
+
+  }
+  
+  .col-sm-12 {
+    width: 100%;
+  }
+}
